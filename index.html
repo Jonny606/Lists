@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Websites</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for a modern, game-themed look */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .card-bg {
+            background-image: linear-gradient(to bottom right, #1f2937, #374151);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <!-- Main Container -->
+    <div class="w-full max-w-4xl mx-auto bg-gray-800 rounded-3xl shadow-2xl p-8 md:p-12">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 mb-2">
+                Game Websites
+            </h1>
+            <p class="text-gray-400 text-lg">A curated list of game sites from the Fastly network.</p>
+        </header>
+
+        <!-- Games Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- Card 1 -->
+            <a href="http://nin104.global.ssl.fastly.net/" target="_blank" class="block card-bg rounded-2xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-xl group">
+                <div class="flex items-center space-x-4">
+                    <img src="https://placehold.co/64x64/2563eb/ffffff?text=104" alt="Site 104" class="rounded-xl shadow-lg">
+                    <div>
+                        <h2 class="text-xl font-bold text-gray-100 group-hover:text-purple-300">Site 104</h2>
+                        <p class="text-gray-400 text-sm">A fast-loading gaming portal.</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Card 2 -->
+            <a href="http://nin106.global.ssl.fastly.net/" target="_blank" class="block card-bg rounded-2xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-xl group">
+                <div class="flex items-center space-x-4">
+                    <img src="https://placehold.co/64x64/dc2626/ffffff?text=106" alt="Site 106" class="rounded-xl shadow-lg">
+                    <div>
+                        <h2 class="text-xl font-bold text-gray-100 group-hover:text-red-300">Site 106</h2>
+                        <p class="text-gray-400 text-sm">More games from the Fastly network.</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Card 3 -->
+            <a href="http://nin105.global.ssl.fastly.net/" target="_blank" class="block card-bg rounded-2xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-xl group">
+                <div class="flex items-center space-x-4">
+                    <img src="https://placehold.co/64x64/16a34a/ffffff?text=105" alt="Site 105" class="rounded-xl shadow-lg">
+                    <div>
+                        <h2 class="text-xl font-bold text-gray-100 group-hover:text-green-300">Site 105</h2>
+                        <p class="text-gray-400 text-sm">Another CDN-powered game site.</p>
+                    </div>
+                </div>
+            </a>
+            
+        </div>
+
+    </div>
+
+</body>
+</html>
